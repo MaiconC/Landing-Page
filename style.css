@@ -3,10 +3,11 @@
 body {
     text-align: center;
     font-family: 'Roboto', sans-serif; 
+    height: 100vh;
+    margin: 0;
 }
 
 .header {
-    color: white;
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
@@ -14,9 +15,49 @@ body {
     padding: 5px;
 }
 
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 a {
     text-decoration: none;
     color: white;
     justify-content: flex-end;
     margin: 8px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.first-section {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h2 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.first-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-color: transparent;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: white;
+    font-size: 18px;
 }
