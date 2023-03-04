@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +8,8 @@
 body {
     font-family: 'Roboto', sans-serif; 
     height: 100vh;
+    margin: auto;
+    flex: 1;
 }
 
 .header {
@@ -103,7 +104,7 @@ button {
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-around;
-    width: 100vw;
+   
     padding: 40px;
 }
 
@@ -131,6 +132,30 @@ h3 {
     justify-content: space-around;
     width: 120px;
     font-size: 18px;
-    color: #9b9ea3;
+    color: #636363;
+}
 
+.third-section {
+    background-color: #E5E7EB;
+    height: 21em;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    width: 35em;
+}
+
+.by {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 60em;
+    height: auto;
 }
