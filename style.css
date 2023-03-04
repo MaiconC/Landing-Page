@@ -23,6 +23,7 @@ body {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
 a {
@@ -161,4 +162,25 @@ h3 {
     justify-content: flex-end;
     width: 60em;
     height: auto;
+}
+
+.fourth-section {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    width: 90em;
+    height: 7em;
+    display: flex;
+    align-items: center;
+
+    flex-wrap: wrap;
+    flex: 1;
 }
